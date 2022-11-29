@@ -23,6 +23,6 @@
 
    // Console log 
 
-   const question = palindromeText(word)
+   const question = palindromeText(userPalindromText)
    console.warn(question)
 
