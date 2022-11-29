@@ -20,3 +20,9 @@
       }
       return 'Giusto! questa è una parola palindroma!'
    }
+
+   // Console log 
+
+   const question = palindromeText(word)
+   console.warn(question)
+
