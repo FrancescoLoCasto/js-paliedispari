@@ -14,6 +14,9 @@
 
       for (let i=0; i<text/2 ;i++) {
 
+         if(word[i] !== word[length - (i+1)]) {
+            return 'La parola che hai inserito non è palindroma!'
+         }
       }
-
+      return 'Giusto! questa è una parola palindroma!'
    }
