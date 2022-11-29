@@ -45,3 +45,12 @@
    let inspectorNums = evenNums(tot)
    console.warn(inspectorNums)
 
+   //Section if
+
+   if(inspectorNums != oddOrEvenGame){
+
+      console.warn("ehi! Hai perso!")
+   } else {
+      console.warn("ehi! Hai vinto!")
+   }
+
