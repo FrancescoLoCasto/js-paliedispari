@@ -20,3 +20,7 @@
 
    //Section of fuction
 
+   function numsRandom(numMin, numMax){
+      
+   }
+
