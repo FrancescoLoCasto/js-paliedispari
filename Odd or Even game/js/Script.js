@@ -14,6 +14,9 @@
    } while ((numsUser < 1) || (numsUser > 5))
 
    do{
-      
-   }
+      oddOrEvenGame = prompt('Scegli se pari o dispari!')
+
+   } while ((oddOrEvenGame != "pari") && (oddOrEvenGame != "dispari"))
+
+   //Section of fuction
 
