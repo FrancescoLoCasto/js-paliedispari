@@ -31,5 +31,17 @@
 
    // Section of second function
 
-   function evenNums(number)
+   function evenNums(number){
+      if(number % 2 === 0){
+         return "pari"
+      } else {
+         return "dispari"
+      }
+   }
+
+   let tot = numsUser + numsGenerator
+   console.warn(tot)
+
+   let inspectorNums = evenNums(tot)
+   console.warn(inspectorNums)
 
