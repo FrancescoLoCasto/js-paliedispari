@@ -5,4 +5,10 @@
    Sommiamo i due numeri Stabiliamo se la somma dei due numeri è pari o dispari attraverso un'altra funzione
    Dichiariamo chi ha vinto. */
 
-   
+   let oddOrEvenGame;
+
+
+   do{
+      numsUser = parseInt(prompt('Inserisci il tuo numero da 1 a 5'))
+   }
+
