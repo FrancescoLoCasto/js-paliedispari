@@ -20,7 +20,16 @@
 
    //Section of fuction
 
-   function numsRandom(numMin, numMax){
-      
+   function numsRandomInput(numMin, numMax){
+      const casualNums = Math.floor(Math.random() * (numMax - numMin + 1) + numMin)
+      return casualNums
    }
+
+   let numsGenerator = numsRandomInput(1, 5)
+
+   console.log(numsGenerator)
+
+   // Section of second function
+
+   function evenNums(number)
 
